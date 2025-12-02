@@ -3,6 +3,7 @@ console.log('Is this working?');
 let viz;
 
 //Add Share Link to Tableau Public in here
+// USE THIS LINK TO SEE VISUAL
 const url = "https://public.tableau.com/views/SchoolsinMontgomeryCountyVisualization/Dashboard2?:language=en-US&:display_count=n&:origin=viz_share_link";
 
 const vizContainer = document.getElementById('vizContainer');
@@ -47,3 +48,4 @@ function generateImage() {
 exportImage.addEventListener("click", function () {
     generateImage();
   });
+
